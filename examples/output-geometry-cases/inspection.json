@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "input_file": "D:\\workdata\\webprojects\\seo\\accounts\\Vesper2026\\pdf-geometry-inspector\\examples\\geometry_cases.pdf",
+  "sha256": "e20bcd3590fafb27919dfd94386fe6f5a36fd9dea536d35dd980d8b8f38d003a",
+  "status": "ok",
+  "pdf_header": "%PDF-1.7",
+  "encrypted": false,
+  "access": "readable",
+  "metadata": {
+    "/Producer": "pypdf",
+    "/Title": "Synthetic PDF geometry cases",
+    "/Author": "PDF Geometry Inspector examples"
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        595.275591,
+        841.889764
+      ],
+      "visible_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "displayed_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "orientation": "portrait",
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 90.0,
+      "rotation_raw": 90.0,
+      "normalized_rotation_degrees": 90.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        595.275591,
+        841.889764
+      ],
+      "visible_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "displayed_dimensions": {
+        "width_pt": 841.889764,
+        "height_pt": 595.275591,
+        "width_mm": 297.0,
+        "height_mm": 210.0
+      },
+      "orientation": "landscape",
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          54.0,
+          36.0,
+          558.0,
+          756.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": [
+        54.0,
+        36.0,
+        558.0,
+        756.0
+      ],
+      "visible_dimensions": {
+        "width_pt": 504.0,
+        "height_pt": 720.0,
+        "width_mm": 177.8,
+        "height_mm": 254.0
+      },
+      "displayed_dimensions": {
+        "width_pt": 504.0,
+        "height_pt": 720.0,
+        "width_mm": 177.8,
+        "height_mm": 254.0
+      },
+      "orientation": "portrait",
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          200.0,
+          300.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          200.0,
+          300.0
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 2.0,
+      "user_unit_raw": 2.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        200.0,
+        300.0
+      ],
+      "visible_dimensions": {
+        "width_pt": 400.0,
+        "height_pt": 600.0,
+        "width_mm": 141.111111,
+        "height_mm": 211.666667
+      },
+      "displayed_dimensions": {
+        "width_pt": 400.0,
+        "height_pt": 600.0,
+        "width_mm": 141.111111,
+        "height_mm": 211.666667
+      },
+      "orientation": "portrait",
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          -20.0,
+          -10.0,
+          700.0,
+          900.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "visible_dimensions": {
+        "width_pt": 612.0,
+        "height_pt": 792.0,
+        "width_mm": 215.9,
+        "height_mm": 279.4
+      },
+      "displayed_dimensions": {
+        "width_pt": 612.0,
+        "height_pt": 792.0,
+        "width_mm": 215.9,
+        "height_mm": 279.4
+      },
+      "orientation": "portrait",
+      "warnings": [
+        {
+          "code": "crop_outside_media",
+          "message": "CropBox extends outside MediaBox; visible geometry uses their intersection."
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          700.0,
+          800.0,
+          900.0,
+          1000.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": null,
+      "visible_dimensions": null,
+      "displayed_dimensions": null,
+      "orientation": "unknown",
+      "warnings": [
+        {
+          "code": "crop_outside_media",
+          "message": "CropBox extends outside MediaBox; visible geometry uses their intersection."
+        },
+        {
+          "code": "empty_intersection",
+          "message": "MediaBox and CropBox have no positive-area intersection."
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 45.0,
+      "rotation_raw": 45.0,
+      "normalized_rotation_degrees": 45.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "visible_dimensions": {
+        "width_pt": 612.0,
+        "height_pt": 792.0,
+        "width_mm": 215.9,
+        "height_mm": 279.4
+      },
+      "displayed_dimensions": null,
+      "orientation": "unknown",
+      "warnings": [
+        {
+          "code": "non_90_rotation",
+          "message": "Rotate is not a finite multiple of 90; displayed dimensions and orientation are unknown."
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          100.0,
+          0.0,
+          100.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": false
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": null,
+      "visible_dimensions": null,
+      "displayed_dimensions": null,
+      "orientation": "unknown",
+      "warnings": [
+        {
+          "code": "non_positive_cropbox",
+          "message": "/CropBox has non-positive width or height; coordinates are not reordered."
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "media_box": {
+        "raw": [
+          612.0,
+          0.0,
+          0.0,
+          792.0
+        ],
+        "source": "PDF",
+        "valid": false
+      },
+      "crop_box": {
+        "raw": null,
+        "source": "missing",
+        "valid": false
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": null,
+      "visible_dimensions": null,
+      "displayed_dimensions": null,
+      "orientation": "unknown",
+      "warnings": [
+        {
+          "code": "non_positive_mediabox",
+          "message": "/MediaBox has non-positive width or height; coordinates are not reordered."
+        },
+        {
+          "code": "missing_cropbox",
+          "message": "/CropBox is missing and has no usable default."
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 270.0,
+      "rotation_raw": 270.0,
+      "normalized_rotation_degrees": 270.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        595.275591,
+        841.889764
+      ],
+      "visible_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "displayed_dimensions": {
+        "width_pt": 841.889764,
+        "height_pt": 595.275591,
+        "width_mm": 297.0,
+        "height_mm": 210.0
+      },
+      "orientation": "landscape",
+      "warnings": []
+    }
+  ],
+  "size_groups": [
+    {
+      "width_pt": 595.276,
+      "height_pt": 841.89,
+      "width_mm": 210.000144,
+      "height_mm": 297.000083,
+      "orientation": "portrait",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "width_pt": 841.89,
+      "height_pt": 595.276,
+      "width_mm": 297.000083,
+      "height_mm": 210.000144,
+      "orientation": "landscape",
+      "pages": [
+        2,
+        10
+      ]
+    },
+    {
+      "width_pt": 504.0,
+      "height_pt": 720.0,
+      "width_mm": 177.8,
+      "height_mm": 254.0,
+      "orientation": "portrait",
+      "pages": [
+        3
+      ]
+    },
+    {
+      "width_pt": 400.0,
+      "height_pt": 600.0,
+      "width_mm": 141.111111,
+      "height_mm": 211.666667,
+      "orientation": "portrait",
+      "pages": [
+        4
+      ]
+    },
+    {
+      "width_pt": 612.0,
+      "height_pt": 792.0,
+      "width_mm": 215.9,
+      "height_mm": 279.4,
+      "orientation": "portrait",
+      "pages": [
+        5
+      ]
+    }
+  ],
+  "ungrouped_pages": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "warnings": [],
+  "geometry_policy": {
+    "visible_area": "positive-area intersection of MediaBox and CropBox",
+    "coordinate_unit": "raw PDF default user-space units",
+    "physical_unit": "pt = raw unit * UserUnit; mm = pt * 25.4 / 72",
+    "displayed_dimensions": "swap width/height for 90 or 270 degrees; unknown for non-90-degree rotation",
+    "size_grouping": "displayed width and height rounded to 0.001 pt; orientation-sensitive; unknown sizes excluded"
+  }
+}

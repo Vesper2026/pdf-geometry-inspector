@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "input_file": "D:\\workdata\\webprojects\\seo\\accounts\\Vesper2026\\pdf-geometry-inspector\\examples\\no_metadata.pdf",
+  "sha256": "62de811e9946ca75e3caea57e5247017a03eb371f37b1fb5bac95acb80440888",
+  "status": "ok",
+  "pdf_header": "%PDF-1.3",
+  "encrypted": false,
+  "access": "readable",
+  "metadata": null,
+  "page_count": 1,
+  "pages": [
+    {
+      "page": 1,
+      "media_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "PDF",
+        "valid": true
+      },
+      "crop_box": {
+        "raw": [
+          0.0,
+          0.0,
+          595.275591,
+          841.889764
+        ],
+        "source": "MediaBox default",
+        "valid": true
+      },
+      "user_unit": 1.0,
+      "user_unit_raw": 1.0,
+      "rotation_degrees": 0.0,
+      "rotation_raw": 0.0,
+      "normalized_rotation_degrees": 0.0,
+      "visible_box_raw": [
+        0.0,
+        0.0,
+        595.275591,
+        841.889764
+      ],
+      "visible_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "displayed_dimensions": {
+        "width_pt": 595.275591,
+        "height_pt": 841.889764,
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      "orientation": "portrait",
+      "warnings": []
+    }
+  ],
+  "size_groups": [
+    {
+      "width_pt": 595.276,
+      "height_pt": 841.89,
+      "width_mm": 210.000144,
+      "height_mm": 297.000083,
+      "orientation": "portrait",
+      "pages": [
+        1
+      ]
+    }
+  ],
+  "ungrouped_pages": [],
+  "warnings": [],
+  "geometry_policy": {
+    "visible_area": "positive-area intersection of MediaBox and CropBox",
+    "coordinate_unit": "raw PDF default user-space units",
+    "physical_unit": "pt = raw unit * UserUnit; mm = pt * 25.4 / 72",
+    "displayed_dimensions": "swap width/height for 90 or 270 degrees; unknown for non-90-degree rotation",
+    "size_grouping": "displayed width and height rounded to 0.001 pt; orientation-sensitive; unknown sizes excluded"
+  }
+}

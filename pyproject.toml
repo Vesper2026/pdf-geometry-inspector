@@ -1,0 +1,16 @@
+[project]
+name = "pdf-geometry-inspector"
+version = "0.1.0"
+description = "Local read-only PDF page geometry inspection"
+requires-python = ">=3.10"
+dependencies = ["pypdf==6.1.3"]
+
+[project.scripts]
+pdf-geometry = "pdf_geometry:main"
+
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["pdf_geometry"]

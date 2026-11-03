@@ -1,0 +1,295 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Synthetic PDF geometry cases)
+/Author (PDF Geometry Inspector examples)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 595.275591 841.889764 ]
+/Parent 2 0 R
+/Contents <<
+/Length 81
+>>
+stream
+q 0.5 w 36 36 523.276 769.890 re S Q
+BT /F1 12 Tf 48 60 Td (1 A4 portrait) Tj ET
+
+endstream
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 595.275591 841.889764 ]
+/Parent 2 0 R
+/Contents <<
+/Length 83
+>>
+stream
+q 0.5 w 36 36 523.276 769.890 re S Q
+BT /F1 12 Tf 48 60 Td (2 A4 rotated 90) Tj ET
+
+endstream
+/Rotate 90
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 101
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (3 Letter cropped to 7 x 10 inches) Tj ET
+
+endstream
+/CropBox [ 54 36 558 756 ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 200 300 ]
+/Parent 2 0 R
+/Contents <<
+/Length 80
+>>
+stream
+q 0.5 w 36 36 128.000 228.000 re S Q
+BT /F1 12 Tf 48 60 Td (4 UserUnit 2) Tj ET
+
+endstream
+/UserUnit 2
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 94
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (5 CropBox outside MediaBox) Tj ET
+
+endstream
+/CropBox [ -20 -10 700 900 ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 88
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (6 Empty intersection) Tj ET
+
+endstream
+/CropBox [ 700 800 900 1000 ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 93
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (7 Unsupported rotation 45) Tj ET
+
+endstream
+/Rotate 45
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 88
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (8 Zero-width CropBox) Tj ET
+
+endstream
+/CropBox [ 100 0.0 100 792 ]
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 612 0.0 0.0 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 87
+>>
+stream
+q 0.5 w 36 36 540.000 720.000 re S Q
+BT /F1 12 Tf 48 60 Td (9 Reversed MediaBox) Tj ET
+
+endstream
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 595.275591 841.889764 ]
+/Parent 2 0 R
+/Contents <<
+/Length 85
+>>
+stream
+q 0.5 w 36 36 523.276 769.890 re S Q
+BT /F1 12 Tf 48 60 Td (10 A4 rotated 270) Tj ET
+
+endstream
+/Rotate 270
+>>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000134 00000 n 
+0000000252 00000 n 
+0000000301 00000 n 
+0000000606 00000 n 
+0000000924 00000 n 
+0000001263 00000 n 
+0000001565 00000 n 
+0000001898 00000 n 
+0000002226 00000 n 
+0000002541 00000 n 
+0000002869 00000 n 
+0000003167 00000 n 
+trailer
+<<
+/Size 14
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+3489
+%%EOF
