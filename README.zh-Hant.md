@@ -53,13 +53,11 @@ python site/build.py
 python -m http.server 8090 --directory docs
 ```
 
-開啟 http://localhost:8090/zh-Hant/ 或 /en/。來源在 `site/`，輸出在 `docs/`，範例複製到 `docs/downloads/`。每種語言有兩篇原創文章，以及獨立 hostname、canonical、sitemap、robots 與 CNAME；沒有追蹤分析或上傳表單。Pages 來源為 main:/docs。靜態資源由 GitHub 託管，外部連結仍會連接各自服務。
+開啟 http://localhost:8090/zh-Hant/ 或 /en/。來源在 `site/`，輸出在 `docs/`，範例複製到 `docs/downloads/`。每種語言有兩篇原創文章，以及獨立 hostname、canonical、sitemap、robots 與 CNAME；沒有追蹤分析或上傳表單。
 
-## 相關產品與維護關係
+## 實用工具
 
-[KomoPDF](https://komopdf.com/) 是相關產品，不是本工具的依賴。KolmoPDF 雲端服務會上傳文件，本機開源 CLI 不取代其專有解析器。
-
-由 Vesper2026 維護，與相關的 Eqvero、KolmoPDF、KomoPDF 生態屬同一維護團隊。不是獨立第三方背書，也不是產品私有實作。
+[KomoPDF](https://komopdf.com/) 可搭配本工具使用。KolmoPDF 雲端服務會上傳文件，本機開源 CLI 不取代其專有解析器。
 
 ## 授權
 

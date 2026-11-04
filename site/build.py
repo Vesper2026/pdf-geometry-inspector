@@ -28,14 +28,14 @@ def build():
     for lang in ("en", "zh-Hant"):
         localized = config[lang]
         zh = lang == "zh-Hant"
-        about = "維護關係" if zh else "About & affiliation"
+        about = "關於" if zh else "About"
         home = "首頁" if zh else "Home"
         back = "閱讀文章" if zh else "Read the fieldnotes"
         cards = "".join(f'<li><span class="article-no">{index:02d}</span><div><p class="eyebrow">{escape(article[lang]["category"])}</p><h2><a href="/{lang}/{article["slug"]}/">{escape(article[lang]["title"])}</a></h2><p>{escape(article[lang]["description"])}</p></div><span aria-hidden="true" class="arrow">↗</span></li>' for index, article in enumerate(articles, 1))
         resources = "".join(f'<li><a href="{escape(link["url"], quote=True)}">{escape(link[lang])}</a></li>' for link in config["resources"])
         home_context = localized.get("home_context_html", "")
         pages = [{"slug": "", "kind": "home", "title": localized["headline"], "seo_title": localized["seo_title"], "description": localized["description"],
-                  "body": f'<section class="intro"><p class="eyebrow">{escape(localized["kicker"])}</p><h1>{escape(localized["headline"])}</h1><p class="lede">{escape(localized["description"])}</p>{home_context}<a class="button" href="#fieldnotes">{back} ↓</a></section><section id="fieldnotes" aria-label="{back}"><ol class="article-list">{cards}</ol></section><aside class="resource-box"><h2>{"實際工具與相關資源" if zh else "Tools & related resources"}</h2><ul>{resources}<li><a href="{repository}">GitHub · {escape(config["repo"])}</a></li></ul><p>{escape(localized["boundary"])}</p></aside>', "date_modified": config["site_modified"]},
+                  "body": f'<section class="intro"><p class="eyebrow">{escape(localized["kicker"])}</p><h1>{escape(localized["headline"])}</h1><p class="lede">{escape(localized["description"])}</p>{home_context}<a class="button" href="#fieldnotes">{back} ↓</a></section><section id="fieldnotes" aria-label="{back}"><ol class="article-list">{cards}</ol></section><aside class="resource-box"><h2>{"工具與資源" if zh else "Tools & resources"}</h2><ul>{resources}<li><a href="{repository}">GitHub · {escape(config["repo"])}</a></li></ul><p>{escape(localized["boundary"])}</p></aside>', "date_modified": config["site_modified"]},
                  {"slug": "about", "kind": "about", "title": about, "description": localized["about_description"], "body": localized["about"], "date_modified": config["site_modified"]}]
         pages += [{"slug": article["slug"], "kind": "article", "date_published": article["date_published"], "date_modified": article["date_modified"], "related": article["related"], **article[lang]} for article in articles]
         for page in pages:
@@ -60,7 +60,7 @@ def build():
                 author_name = localized["author_name"]
                 author_url = config["author_url"]
                 author = {"@type": "Organization", "name": author_name, "url": author_url}
-                by = "維護署名" if zh else "By"
+                by = "作者" if zh else "By"
                 published = "首發" if zh else "Published"
                 modified = "更新" if zh else "Updated"
                 article_header += f'<p class="byline">{by} <a rel="author" href="{escape(author_url, quote=True)}">{escape(author_name)}</a><span>{published} <time datetime="{page["date_published"]}">{page["date_published"]}</time></span><span>{modified} <time datetime="{page["date_modified"]}">{page["date_modified"]}</time></span></p></header>'
@@ -82,7 +82,7 @@ def build():
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_text(html, encoding="utf-8")
             urls.append((canonical, en_url, zh_url, page["date_modified"]))
-    # Remains a fallback for GitHub Pages; Vercel's exact / route uses a permanent redirect.
+    # Static language-selection fallback.
     (OUT / "index.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=/en/"><title>{escape(config["en"]["seo_title"])} · {escape(config["en"]["brand"])}</title><link rel="canonical" href="{base}/en/"></head><body><a href="/en/">English</a> · <a href="/zh-Hant/">繁體中文</a></body></html>', encoding="utf-8")
     entries = []
     for url, en, zh, modified in urls:
